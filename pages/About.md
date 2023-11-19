@@ -1,3 +1,11 @@
-# About this website
+# About me
 
-This website was generated using a static site generator.
+s
+
+## Design Engineer
+
+## Products
+
+## History
+
+## Formal study
