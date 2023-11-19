@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0" />
+  <title>Visual systems</title>
+  <meta name="color-scheme" content="light dark" />
+  <!-- A <meta name="viewport"> not only optimizes your app for mobile screen sizes, but also prevents a 300 millisecond delay to user input. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content=
+  "Matthew Clarke is a designer based in Brooklyn, NY" />
+  <style type="text/css">
+  /*<![CDATA[*/
+  /* Mute all text styles to look like raw text */
+  * {
+  font-family: monospace;
+  font-size: 1em;
+  line-height: 1.7em;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  }
+  /* Normalize body margin to our 1rem base unit */
+  body {
+  font-size: 1em;
+  padding: 1.7em;
+  margin: 0px;
+  }
+  /* Fix default html styling where images overflow screen */
+  img {
+  width: 100%;
+  height: auto;
+  }
+  /* Emphasize titles, the first type area heading and nav index link */
+  h1,
+  nav > a:first-child {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  height: 25.5rem;
+  padding-bottom: 0em;
+  }
+  h1 {
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 3.4rem;
+  }
+  p {
+  /* Mimic user agent p padding - chrome user agent styles */
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 1.7em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  }
+  /* Mute default heading mergins to give flat hierarchy */
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+  margin-block-start: 3.4rem;
+  margin-block-end: 1.7rem;
+  }
+  /* Emphasize nav with margin */
+  nav {
+  margin-block-end: 8rem;
+  }
+  /* Stack nav links */
+  nav > a {
+  display: block;
+  text-wrap: nowrap;
+  /* padding-bottom: 1.6em; */
+  }
+  /* Mute default link styling */
+  a {
+  color: inherit;
+  opacity: 60%;
+  text-decoration-line: none;
+  }
+  a:hover {
+  opacity: 100%;
+  }
+  /* Set type area width to same as your text editor */
+  main {
+  max-width: 72ch;
+  }
+  /* Stick the nav on screen to top left for tablet and above */
+  @media only screen and (min-width: 510px) {
+  body {
+    display: flex;
+    gap: 1rem;
+  }
+  nav {
+    overflow: hidden;
+    position: sticky;
+    top: 0.75rem; /* Square to top */
+    left: 0px;
+    min-width: fit-content;
+    height: fit-content;
+  }
+  main {
+    padding-right: 4rem;
+  }
+  }
+  /* Increase mobile sizing for 48px min tap size */
+  @media only screen and (max-width: 509px) {
+  nav {
+    float: left;
+    margin-right: 1rem;
+  }
+  }
+
+  @media only screen and (max-width: 412px) {
+  *,
+  body,
+  nav > a {
+    font-size: 1rem;
+  }
+  nav {
+    float: none;
+    margin-right: none;
+  }
+  nav > a {
+    margin-block-end: 0rem;
+    padding-bottom: 1.6em;
+  }
+  nav > a:first-child {
+    margin-block-end: 0rem;
+    min-height: 0em;
+    line-height: 1.6em;
+  }
+  }
+
+  @media (pointer: coarse) {
+  *,
+  body,
+  nav > a {
+    font-size: 1rem;
+  }
+  }
+
+  /* Line height grid */
+
+  /* body {
+  background-size: 1.7em 1.7em;
+  background-image: repeating-linear-gradient(
+    0deg,
+    #444df7,
+    #444df700 1px,
+    #e5e5f700 1px,
+    #e5e5f700
+  );
+  } */
+  /* 
+  nav {
+  background-color: #000000;
+  opacity: 0.8;
+  background-size: 1.7em 1.7em;
+  background-image: repeating-linear-gradient(
+    0deg,
+    #444df7,
+    #444df700 1px,
+    #e5e5f700 1px,
+    #e5e5f700
+  );
+  } */
+  /*]]>*/
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">Matthew Clarke</a> <a href="about.html">About</a><a href=
+    "markdown.html">Markdown</a><a href="visual.html">Visual systems</a>
+  </nav>
+  <main>
+    <h1 id="constructing-a-visual-system-for-user-interfaces">Constructing a visual
+    system for user interfaces</h1>
+    <p>“This redesign needs to future proof us for 5 years and we need it done within the
+    quarter.” - CEO</p>
+    <p>Visual systems can be constructed top-down or bottom-up. The top-down approach
+    constructs the system from the user’s point of view. I’d like to turn the volume down
+    on my tv so I need a way to tell it to do so. Therefore, our user interface needs to
+    visually communicate how the volume can be turned down. When the user sees how it can
+    be turned down, they’re then able to do so.</p>
+    <p>So, say we design some volume controls that make the most sense for controlling
+    audio. We deep dive into the meaning of audio and determine a graphic to represent
+    the controls. We add it to our control panel and continue to the next feature.</p>
+    <p>Over time, our interface becomes frustrating to use. Say, we use a plus and minus
+    sign to communicate volume, arrows for channels, and a wheel for menu selection.
+    Suddenly, each control begins to communicates less and less the more we add. To solve
+    for this, top-down, we improve the ergonomics of the layout and wiggle our controls
+    until they feel right. We examine our typography and grid and note some standard
+    values. However, we keep hearing our interface is too complex to easily use. We then
+    reflect on how we isolated each control from the beginning and backed our way into a
+    visual system we can’t understand.</p>
+    <p>Enter the bottom-up approach. The bottom-up approach constructs the system from
+    the medium’s point of view. What is the medium we’re communicating through and how
+    should it express our interface? This is a powerful approach for designers to adopt
+    when they aspire to simplify complexity or craft good, humble user interfaces.</p>
+    <p>On that note, welcome to my guide for constructing a visual systems for user
+    interfaces. This guide was written while I redesigned the Associated Press’s product
+    design system in 2024.</p>
+    <h2 id="genesis">Genesis</h2>
+    <p>The bottom-up approach to designing visual systems should start with a base unit
+    that correlates to final medium.</p>
+    <p>For print… For hardware… For unix os… For graphical os…</p>
+    <p>In this guide we’ll construct a visual system for multiple software mediums.</p>
+    <p><a href="pages/Visual%20systems.md">Raw</a></p>
+  </main>
+</body>
+</html>
